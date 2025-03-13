@@ -14,7 +14,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TableColumn;
@@ -129,7 +128,7 @@ public class AgentMenuController implements Initializable, Observer {
 
         try{
             //After the logout  i will reload the Login page in case i need another agent to login
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/LogIn.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/LogInf.fxml"));
             Parent root = loader.load();
 
             LogInController controller = loader.getController();

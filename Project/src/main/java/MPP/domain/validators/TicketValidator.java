@@ -17,9 +17,7 @@ public class TicketValidator implements Validator<Ticket> {
             errors += "NrSeats must be greater than 0.";
         if (Objects.equals(entity.getClientName(),""))
             errors += "Client name is required.";
-        if (entity.getTourists() == null || entity.getTourists().isEmpty()) {
-            errors += "The list of tourists must contain at least one client.";
-        }
+       
         if (Objects.equals(entity.getAddress(),""))
             errors += "Address is required.";
         if(!errors.isEmpty())

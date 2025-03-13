@@ -1,0 +1,12 @@
+2025-03-13 18:11:23 INFO  MPP.repository.AgentDBRepository 25 <init> - Initializing AgentDBRepository with properties: null 
+2025-03-13 18:11:23 INFO  MPP.repository.FlightDBRepository 24 <init> - Initializing FlightDBRepository with properties: null 
+2025-03-13 18:11:23 INFO  MPP.repository.TicketDBRepository 25 <init> - Initializing TicketDBRepository with properties: null 
+2025-03-13 18:11:25 INFO  MPP.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Facultate/Sem5/ppd/P1/CarRent.db
+2025-03-13 18:11:25 INFO  MPP.utils.JdbcUtils 30 getNewConnection - user: null
+2025-03-13 18:11:25 INFO  MPP.utils.JdbcUtils 31 getNewConnection - pass: null
+2025-03-13 18:11:26 INFO  MPP.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Facultate/Sem5/ppd/P1/CarRent.db
+2025-03-13 18:11:26 INFO  MPP.utils.JdbcUtils 30 getNewConnection - user: null
+2025-03-13 18:11:26 INFO  MPP.utils.JdbcUtils 31 getNewConnection - pass: null
+2025-03-13 18:11:26 INFO  MPP.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Facultate/Sem5/ppd/P1/CarRent.db
+2025-03-13 18:11:26 INFO  MPP.utils.JdbcUtils 30 getNewConnection - user: null
+2025-03-13 18:11:26 INFO  MPP.utils.JdbcUtils 31 getNewConnection - pass: null
