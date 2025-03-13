@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="536.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MPP.interfaces.AgentMenuController">
+   <children>
+      <TableView fx:id="table1" layoutX="33.0" layoutY="45.0" prefHeight="152.0" prefWidth="534.0">
+        <columns>
+            <TableColumn fx:id="col1" prefWidth="135.0" text="From" />
+            <TableColumn fx:id="col2" prefWidth="125.0" text="To" />
+            <TableColumn fx:id="col3" prefWidth="141.0" text="Date" />
+            <TableColumn fx:id="col4" prefWidth="136.0" text="Available seats" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="comboBox1" layoutX="33.0" layoutY="221.0" prefWidth="150.0" promptText="Departure" />
+      <ComboBox fx:id="comboBox2" layoutX="212.0" layoutY="221.0" prefWidth="150.0" promptText="Destination" />
+      <DatePicker fx:id="datePicker" layoutX="391.0" layoutY="221.0" promptText="Departure Date" />
+      <TableView fx:id="table2" layoutX="33.0" layoutY="273.0" prefHeight="200.0" prefWidth="534.0">
+        <columns>
+            <TableColumn fx:id="col5" prefWidth="123.0" text="From" />
+            <TableColumn fx:id="col6" prefWidth="119.0" text="To" />
+            <TableColumn fx:id="col7" prefWidth="129.0" text="Date" />
+            <TableColumn fx:id="col8" prefWidth="150.0" text="Available seats" />
+        </columns>
+      </TableView>
+      <Button fx:id="logOutButton" onAction="#LogOut" layoutX="33.0" layoutY="485.0" mnemonicParsing="false" text="LogOut" />
+      <Button fx:id="serchButton" onAction="#Search" layoutX="102.0" layoutY="485.0" mnemonicParsing="false" text="Search" />
+      <Button fx:id="bookButton" onAction="#Book" layoutX="170.0" layoutY="485.0" mnemonicParsing="false" text="Book Ticket" />
+   </children>
+</AnchorPane>

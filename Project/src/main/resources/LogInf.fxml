@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="174.0" prefWidth="263.0" style="-fx-background-color: #383b38;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MPP.interfaces.LogInController">
+   <children>
+      <TextField fx:id="usernameField" alignment="TOP_CENTER" layoutX="22.0" layoutY="45.0" prefHeight="26.0" prefWidth="219.0" promptText="Username" />
+      <Button fx:id="logInButton" layoutX="96.0" layoutY="114.0" mnemonicParsing="false" onAction="#LogIn" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: black;" text="LogIn" textAlignment="CENTER" textFill="#00ff3a" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordField" alignment="TOP_CENTER" layoutX="22.0" layoutY="78.0" prefHeight="26.0" prefWidth="219.0" promptText="Password" />
+      <Label layoutX="56.0" layoutY="14.0" text="Welcome to AirTravel" textFill="#00fa3d">
+         <font>
+            <Font name="Microsoft Himalaya" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="195.0" prefWidth="564.0" style="-fx-background-color: #383b38;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MPP.interfaces.BookFlightController">
+   <children>
+      <TextField fx:id="clientField" layoutX="26.0" layoutY="47.0" prefHeight="26.0" prefWidth="513.0" promptText="Client" style="-fx-background-color: black;" />
+      <TextField fx:id="addressField" layoutX="26.0" layoutY="90.0" prefHeight="26.0" prefWidth="514.0" promptText="Address" style="-fx-background-color: black;" />
+      <TextField fx:id="nOSField" layoutX="26.0" layoutY="131.0" prefHeight="26.0" prefWidth="371.0" promptText="Number of seats" style="-fx-background-color: black;" />
+      <Button fx:id="nextButton" layoutX="428.0" layoutY="129.0" mnemonicParsing="false" onAction="#Next" prefHeight="26.0" prefWidth="111.0" style="-fx-background-color: black;" text="Continue" textFill="#004eff">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="bookingFlight" layoutX="26.0" layoutY="11.0" text="Book your Flight" textFill="#3300ff">
+         <font>
+            <Font name="Pristina" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

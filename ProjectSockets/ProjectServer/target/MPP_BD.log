@@ -1,0 +1,745 @@
+23 Apr 2024 21:21:04,777 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+23 Apr 2024 21:21:04,782 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+23 Apr 2024 21:21:04,784 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+23 Apr 2024 21:21:05,898 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username a
+23 Apr 2024 21:21:05,899 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:05,899 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 21:21:05,899 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 21:21:05,899 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 21:21:05,900 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 21:21:06,002 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@35d63ea1)
+23 Apr 2024 21:21:06,004 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit
+23 Apr 2024 21:21:06,209 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:21:06,210 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:06,210 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 21:21:06,210 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 21:21:06,210 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 21:21:06,211 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 21:21:06,211 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@4a5fc0c1)
+23 Apr 2024 21:21:06,215 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:21:06,423 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:21:06,423 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:06,424 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@4a5fc0c1)
+23 Apr 2024 21:21:06,424 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:21:06,638 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:21:06,638 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:06,638 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@4a5fc0c1)
+23 Apr 2024 21:21:06,639 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:21:06,639 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+23 Apr 2024 21:21:06,639 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:06,640 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 21:21:06,640 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 21:21:06,640 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 21:21:06,640 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 21:21:06,641 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@65238616)
+23 Apr 2024 21:21:06,643 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:21:06,643 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+23 Apr 2024 21:21:06,643 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:06,643 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@65238616)
+23 Apr 2024 21:21:06,644 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:21:06,644 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+23 Apr 2024 21:21:06,644 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:21:06,644 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@65238616)
+23 Apr 2024 21:21:06,645 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:38:35,355 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+23 Apr 2024 21:38:35,361 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+23 Apr 2024 21:38:35,364 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+23 Apr 2024 21:39:11,173 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username a
+23 Apr 2024 21:39:11,174 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,174 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 21:39:11,174 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 21:39:11,174 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 21:39:11,175 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 21:39:11,280 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@6b071f4f)
+23 Apr 2024 21:39:11,282 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit
+23 Apr 2024 21:39:11,499 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:11,500 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,500 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 21:39:11,500 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 21:39:11,500 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 21:39:11,500 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 21:39:11,501 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:11,505 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:11,716 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:11,716 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,717 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:11,717 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:11,920 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username b
+23 Apr 2024 21:39:11,921 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,921 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@6b071f4f)
+23 Apr 2024 21:39:11,922 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit
+23 Apr 2024 21:39:11,932 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:11,933 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,933 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:11,934 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:11,934 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+23 Apr 2024 21:39:11,934 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,935 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 21:39:11,935 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 21:39:11,935 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 21:39:11,935 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 21:39:11,936 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:11,939 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:39:11,939 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+23 Apr 2024 21:39:11,940 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,940 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:11,940 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:39:11,941 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+23 Apr 2024 21:39:11,941 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:11,941 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:11,941 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:39:12,133 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:12,134 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:12,135 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:12,136 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:12,346 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:12,347 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:12,347 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:12,348 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:12,549 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:12,549 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:12,549 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:12,550 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:12,550 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+23 Apr 2024 21:39:12,550 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:12,550 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:12,553 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:39:12,553 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+23 Apr 2024 21:39:12,553 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:12,553 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:12,553 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:39:12,553 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+23 Apr 2024 21:39:12,554 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:12,554 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:12,554 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 21:39:27,954 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 21:39:27,955 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:27,955 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1f466b0d)
+23 Apr 2024 21:39:27,955 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 21:39:27,955 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+23 Apr 2024 21:39:27,955 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 21:39:27,955 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@baaf6c4)
+23 Apr 2024 21:39:27,957 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 22:13:20,105 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+23 Apr 2024 22:13:20,110 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+23 Apr 2024 22:13:20,112 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+23 Apr 2024 22:13:47,103 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username a
+23 Apr 2024 22:13:47,104 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,104 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 22:13:47,104 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 22:13:47,105 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 22:13:47,105 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 22:13:47,203 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@791a95a1)
+23 Apr 2024 22:13:47,206 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit
+23 Apr 2024 22:13:47,416 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 22:13:47,416 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,417 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 22:13:47,417 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 22:13:47,417 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 22:13:47,417 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 22:13:47,418 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+23 Apr 2024 22:13:47,422 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 22:13:47,629 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 22:13:47,629 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,629 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+23 Apr 2024 22:13:47,630 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 22:13:47,832 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+23 Apr 2024 22:13:47,832 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,832 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+23 Apr 2024 22:13:47,833 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+23 Apr 2024 22:13:47,834 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+23 Apr 2024 22:13:47,834 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,834 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+23 Apr 2024 22:13:47,834 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+23 Apr 2024 22:13:47,834 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+23 Apr 2024 22:13:47,834 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+23 Apr 2024 22:13:47,835 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+23 Apr 2024 22:13:47,839 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 22:13:47,839 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+23 Apr 2024 22:13:47,839 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,839 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+23 Apr 2024 22:13:47,839 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+23 Apr 2024 22:13:47,839 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+23 Apr 2024 22:13:47,840 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+23 Apr 2024 22:13:47,840 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+23 Apr 2024 22:13:47,840 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:03:40,188 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+24 Apr 2024 09:03:40,196 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+24 Apr 2024 09:03:40,198 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+24 Apr 2024 09:05:40,299 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+24 Apr 2024 09:05:40,306 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+24 Apr 2024 09:05:40,309 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+24 Apr 2024 09:06:23,801 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username a
+24 Apr 2024 09:06:23,802 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:23,802 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+24 Apr 2024 09:06:23,803 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+24 Apr 2024 09:06:23,803 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+24 Apr 2024 09:06:23,804 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Apr 2024 09:06:24,030 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@791a95a1)
+24 Apr 2024 09:06:24,035 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit with(Entity{id=1})
+24 Apr 2024 09:06:24,244 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:24,244 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:24,245 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+24 Apr 2024 09:06:24,245 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+24 Apr 2024 09:06:24,245 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+24 Apr 2024 09:06:24,246 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Apr 2024 09:06:24,247 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:24,278 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:24,494 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:24,495 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:24,495 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:24,496 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:24,711 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:24,712 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:24,712 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:24,713 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:24,713 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:24,713 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:24,714 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+24 Apr 2024 09:06:24,714 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/barte/IdeaProjects/SQLiteDatabases/project1.db
+24 Apr 2024 09:06:24,714 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+24 Apr 2024 09:06:24,714 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+24 Apr 2024 09:06:24,715 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:24,721 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:24,722 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+24 Apr 2024 09:06:24,722 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:24,722 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:24,722 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:24,723 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+24 Apr 2024 09:06:24,723 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:24,723 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:24,724 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:31,011 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username b
+24 Apr 2024 09:06:31,012 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,012 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@791a95a1)
+24 Apr 2024 09:06:31,013 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit with(Entity{id=2})
+24 Apr 2024 09:06:31,225 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:31,225 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,226 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:31,227 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:31,428 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:31,428 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,428 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:31,431 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:31,645 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:31,645 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,646 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:31,647 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:31,647 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:31,647 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,647 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:31,651 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:31,652 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+24 Apr 2024 09:06:31,652 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,652 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:31,653 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:31,653 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+24 Apr 2024 09:06:31,653 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:31,654 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:31,654 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:44,745 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:44,746 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:44,746 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:44,747 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:44,747 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:44,747 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:44,747 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:44,752 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:45,526 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:45,526 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:45,526 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:45,527 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:45,528 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:45,528 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:45,528 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:45,531 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,106 TRACE server.repository.TicketDBRepository 186 save - Enter saving ticket Entity{id=null}
+24 Apr 2024 09:06:55,107 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,107 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,125 TRACE server.repository.TicketDBRepository 206 save - Saved ticket Entity{id=34}
+24 Apr 2024 09:06:55,125 TRACE server.repository.TicketDBRepository 211 save - Exit
+24 Apr 2024 09:06:55,129 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:55,130 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,130 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:55,131 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:55,131 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:55,132 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,132 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,137 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,139 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+24 Apr 2024 09:06:55,139 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,139 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,140 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,140 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+24 Apr 2024 09:06:55,140 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,140 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,141 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,333 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:55,334 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,334 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:55,335 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:55,335 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:55,335 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,337 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,340 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,340 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+24 Apr 2024 09:06:55,341 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,341 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,341 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,341 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+24 Apr 2024 09:06:55,342 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,342 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,342 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,348 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:55,349 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,349 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:55,350 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:55,350 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:55,351 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,351 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,354 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:06:55,552 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:06:55,552 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,552 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:06:55,553 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:06:55,554 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:06:55,554 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:06:55,554 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:06:55,559 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:10,924 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:07:10,924 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:10,924 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:07:10,925 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:07:10,925 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:07:10,926 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:10,926 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:10,929 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,583 TRACE server.repository.TicketDBRepository 186 save - Enter saving ticket Entity{id=null}
+24 Apr 2024 09:07:18,583 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,583 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,670 TRACE server.repository.TicketDBRepository 206 save - Saved ticket Entity{id=35}
+24 Apr 2024 09:07:18,670 TRACE server.repository.TicketDBRepository 211 save - Exit
+24 Apr 2024 09:07:18,673 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:07:18,673 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,673 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:07:18,674 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:07:18,674 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:07:18,674 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,675 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,680 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,680 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+24 Apr 2024 09:07:18,680 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,681 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,681 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,681 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+24 Apr 2024 09:07:18,682 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,682 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,682 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,885 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:07:18,885 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:07:18,886 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,886 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,886 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:07:18,886 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:07:18,887 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:07:18,887 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:07:18,887 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:07:18,887 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:07:18,887 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,888 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,888 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,888 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,896 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,896 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,896 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 10
+24 Apr 2024 09:07:18,897 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,897 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,897 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:18,897 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 11
+24 Apr 2024 09:07:18,898 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:18,898 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:18,898 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+24 Apr 2024 09:07:19,107 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+24 Apr 2024 09:07:19,107 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:19,107 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@7e386dc2)
+24 Apr 2024 09:07:19,108 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=9}, Entity{id=10}, Entity{id=11}])
+24 Apr 2024 09:07:19,108 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+24 Apr 2024 09:07:19,109 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+24 Apr 2024 09:07:19,109 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@228f0cd)
+24 Apr 2024 09:07:19,112 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:00,314 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+13 mai 2024 20:15:00,318 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+13 mai 2024 20:15:00,319 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+13 mai 2024 20:15:30,220 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username Roland
+13 mai 2024 20:15:30,221 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,221 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+13 mai 2024 20:15:30,221 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/sergi/IdeaProjects/mpp-proiect-java-sergiurld/CarRent
+13 mai 2024 20:15:30,221 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+13 mai 2024 20:15:30,222 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+13 mai 2024 20:15:30,323 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@13067ef)
+13 mai 2024 20:15:30,326 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit with(Entity{id=1})
+13 mai 2024 20:15:30,533 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:15:30,533 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,533 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+13 mai 2024 20:15:30,533 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/sergi/IdeaProjects/mpp-proiect-java-sergiurld/CarRent
+13 mai 2024 20:15:30,533 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+13 mai 2024 20:15:30,533 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+13 mai 2024 20:15:30,534 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:15:30,539 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:15:30,751 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:15:30,751 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,752 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:15:30,752 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:15:30,955 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:15:30,955 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,955 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:15:30,956 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:15:30,957 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+13 mai 2024 20:15:30,957 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,957 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+13 mai 2024 20:15:30,957 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/sergi/IdeaProjects/mpp-proiect-java-sergiurld/CarRent
+13 mai 2024 20:15:30,958 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+13 mai 2024 20:15:30,959 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+13 mai 2024 20:15:30,960 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,961 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:30,961 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+13 mai 2024 20:15:30,961 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,961 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,962 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:30,963 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+13 mai 2024 20:15:30,963 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,963 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,963 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:30,964 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+13 mai 2024 20:15:30,964 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,964 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,964 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:30,964 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+13 mai 2024 20:15:30,965 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,965 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,965 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:30,965 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+13 mai 2024 20:15:30,965 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,965 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,966 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:30,966 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+13 mai 2024 20:15:30,966 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:30,966 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:30,966 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:56,463 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username Sergiu
+13 mai 2024 20:15:56,464 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:56,464 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@13067ef)
+13 mai 2024 20:15:56,465 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit with(Entity{id=2})
+13 mai 2024 20:15:56,678 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:15:56,678 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:56,678 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:15:56,679 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:15:56,884 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:15:56,884 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:56,885 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:15:56,885 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:15:57,087 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:15:57,087 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,088 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:15:57,089 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:15:57,089 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+13 mai 2024 20:15:57,089 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,089 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,090 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:57,090 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+13 mai 2024 20:15:57,090 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,090 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,091 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:57,091 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+13 mai 2024 20:15:57,091 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,091 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,093 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:57,093 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+13 mai 2024 20:15:57,093 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,093 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,094 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:57,094 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+13 mai 2024 20:15:57,094 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,094 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,095 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:57,095 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+13 mai 2024 20:15:57,095 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,095 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,095 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:15:57,096 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+13 mai 2024 20:15:57,096 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:15:57,096 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:15:57,096 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:13,078 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:16:13,079 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:13,079 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:16:13,080 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:16:13,080 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+13 mai 2024 20:16:13,080 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:13,080 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:13,080 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,312 TRACE server.repository.TicketDBRepository 186 save - Enter saving ticket Entity{id=null}
+13 mai 2024 20:16:37,312 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,312 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,321 TRACE server.repository.TicketDBRepository 206 save - Saved ticket Entity{id=3}
+13 mai 2024 20:16:37,321 TRACE server.repository.TicketDBRepository 211 save - Exit
+13 mai 2024 20:16:37,324 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:16:37,324 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,324 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:16:37,325 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:16:37,325 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+13 mai 2024 20:16:37,326 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,326 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,326 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,326 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+13 mai 2024 20:16:37,326 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,327 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,327 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,327 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+13 mai 2024 20:16:37,327 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,327 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,327 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,327 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+13 mai 2024 20:16:37,329 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,329 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,329 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,329 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+13 mai 2024 20:16:37,329 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,329 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,330 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,330 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+13 mai 2024 20:16:37,330 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,330 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,330 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,331 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+13 mai 2024 20:16:37,331 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,331 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,331 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,523 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:16:37,523 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,523 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:16:37,524 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:16:37,524 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+13 mai 2024 20:16:37,524 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,524 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,524 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,525 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+13 mai 2024 20:16:37,525 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,525 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,525 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,525 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+13 mai 2024 20:16:37,525 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,526 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,526 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,526 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+13 mai 2024 20:16:37,526 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,526 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,526 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,527 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+13 mai 2024 20:16:37,527 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,527 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,527 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,527 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+13 mai 2024 20:16:37,527 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,527 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,527 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,528 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+13 mai 2024 20:16:37,528 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,528 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,528 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+13 mai 2024 20:16:37,737 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+13 mai 2024 20:16:37,737 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,738 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+13 mai 2024 20:16:37,738 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+13 mai 2024 20:16:37,738 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+13 mai 2024 20:16:37,738 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+13 mai 2024 20:16:37,739 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+13 mai 2024 20:16:37,739 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:21,387 INFO  server.repository.AgentDBRepository 24 <init> - Initializing AgentDBRepository with properties: null 
+14 mai 2024 12:19:21,391 INFO  server.repository.FlightDBRepository 26 <init> - Initializing FlightDBRepository with properties: null 
+14 mai 2024 12:19:21,392 INFO  server.repository.TicketDBRepository 27 <init> - Initializing TicketDBRepository with properties: null 
+14 mai 2024 12:19:40,646 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username Roland
+14 mai 2024 12:19:40,646 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:40,647 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+14 mai 2024 12:19:40,647 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/sergi/IdeaProjects/mpp-proiect-java-sergiurld/CarRent
+14 mai 2024 12:19:40,647 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+14 mai 2024 12:19:40,647 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+14 mai 2024 12:19:40,753 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@13067ef)
+14 mai 2024 12:19:40,756 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit with(Entity{id=1})
+14 mai 2024 12:19:40,965 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:19:40,965 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:40,965 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+14 mai 2024 12:19:40,966 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/sergi/IdeaProjects/mpp-proiect-java-sergiurld/CarRent
+14 mai 2024 12:19:40,966 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+14 mai 2024 12:19:40,966 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+14 mai 2024 12:19:40,967 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:19:40,972 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:19:41,178 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:19:41,178 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,178 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:19:41,180 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:19:41,396 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:19:41,396 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,396 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:19:41,397 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:19:41,398 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+14 mai 2024 12:19:41,398 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,398 TRACE server.utils.JdbcUtils 24 getNewConnection - Enter
+14 mai 2024 12:19:41,399 INFO  server.utils.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/sergi/IdeaProjects/mpp-proiect-java-sergiurld/CarRent
+14 mai 2024 12:19:41,399 INFO  server.utils.JdbcUtils 30 getNewConnection - user: null
+14 mai 2024 12:19:41,399 INFO  server.utils.JdbcUtils 31 getNewConnection - pass: null
+14 mai 2024 12:19:41,400 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,402 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:41,402 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+14 mai 2024 12:19:41,402 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,402 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,404 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:41,404 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+14 mai 2024 12:19:41,404 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,404 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,405 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:41,405 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+14 mai 2024 12:19:41,405 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,406 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,406 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:41,406 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+14 mai 2024 12:19:41,407 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,407 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,407 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:41,407 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+14 mai 2024 12:19:41,408 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,408 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,409 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:41,409 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+14 mai 2024 12:19:41,409 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:41,409 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:19:41,409 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:19:59,496 TRACE server.repository.AgentDBRepository 129 findOneByUsername - Enter finding agent with username Sergiu
+14 mai 2024 12:19:59,497 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:59,497 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@13067ef)
+14 mai 2024 12:19:59,498 TRACE server.repository.AgentDBRepository 140 findOneByUsername - Exit with(Entity{id=2})
+14 mai 2024 12:19:59,704 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:19:59,704 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:59,704 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:19:59,705 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:19:59,916 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:19:59,916 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:19:59,916 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:19:59,917 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:20:00,130 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:20:00,130 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,130 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:20:00,132 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:20:00,132 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+14 mai 2024 12:20:00,133 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,133 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,134 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:00,134 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+14 mai 2024 12:20:00,134 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,135 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,135 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:00,136 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+14 mai 2024 12:20:00,136 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,136 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,136 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:00,136 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+14 mai 2024 12:20:00,136 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,137 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,137 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:00,137 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+14 mai 2024 12:20:00,137 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,138 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,138 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:00,138 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+14 mai 2024 12:20:00,138 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,138 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,139 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:00,139 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+14 mai 2024 12:20:00,139 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:00,139 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:00,140 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:14,679 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:20:14,679 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:14,679 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:20:14,680 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:20:14,680 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+14 mai 2024 12:20:14,680 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:14,680 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:14,681 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,229 TRACE server.repository.TicketDBRepository 186 save - Enter saving ticket Entity{id=null}
+14 mai 2024 12:20:28,229 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,229 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,236 TRACE server.repository.TicketDBRepository 206 save - Saved ticket Entity{id=5}
+14 mai 2024 12:20:28,238 TRACE server.repository.TicketDBRepository 211 save - Exit
+14 mai 2024 12:20:28,240 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:20:28,240 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,240 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:20:28,241 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:20:28,241 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+14 mai 2024 12:20:28,241 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,241 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,242 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,242 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+14 mai 2024 12:20:28,242 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,242 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,244 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,244 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+14 mai 2024 12:20:28,244 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,244 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,244 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,245 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+14 mai 2024 12:20:28,245 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,245 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,245 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,245 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+14 mai 2024 12:20:28,245 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,246 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,246 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,246 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+14 mai 2024 12:20:28,246 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,246 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,247 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,247 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+14 mai 2024 12:20:28,247 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,247 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,247 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,439 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:20:28,439 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,439 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:20:28,440 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:20:28,441 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+14 mai 2024 12:20:28,441 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,441 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,442 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,442 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 4
+14 mai 2024 12:20:28,442 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,442 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,443 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,443 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 5
+14 mai 2024 12:20:28,443 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,443 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,443 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,444 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 6
+14 mai 2024 12:20:28,444 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,444 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,444 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,444 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 7
+14 mai 2024 12:20:28,444 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,445 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,445 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,445 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 8
+14 mai 2024 12:20:28,445 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,445 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,447 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,447 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 9
+14 mai 2024 12:20:28,447 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,447 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,447 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
+14 mai 2024 12:20:28,661 TRACE server.repository.FlightDBRepository 62 getAll - Enter
+14 mai 2024 12:20:28,661 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,661 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@3e5c7a3b)
+14 mai 2024 12:20:28,662 TRACE server.repository.FlightDBRepository 86 getAll - Exit with([Entity{id=3}, Entity{id=4}, Entity{id=5}, Entity{id=6}, Entity{id=7}, Entity{id=8}, Entity{id=9}])
+14 mai 2024 12:20:28,662 TRACE server.repository.TicketDBRepository 33 filterByFlight - Enter filtering tickets by flight with id 3
+14 mai 2024 12:20:28,662 TRACE server.utils.JdbcUtils 47 getConnection - Enter
+14 mai 2024 12:20:28,662 TRACE server.utils.JdbcUtils 56 getConnection - Exit with(org.sqlite.SQLiteConnection@1a141da)
+14 mai 2024 12:20:28,662 TRACE server.repository.TicketDBRepository 79 filterByFlight - Exit
